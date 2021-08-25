@@ -1,0 +1,20 @@
+.contact-content{
+    height: 40vw;
+    margin-top: 18px;
+    padding: 9px;
+    position: relative;
+}
+.contact-content::after{
+    content:"";
+    background-image: url('../Img/Article-2.jpg');
+    border-radius: 5px;
+    height: inherit;
+    width: 100%;
+    position: absolute;
+    top:0;
+    opacity: 0.20;
+    z-index: -1;
+}
+.btn{
+    margin-left: 10vw;
+}
