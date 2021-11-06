@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bloger's Point</title>
+    <title>Article Watch</title>
     <link rel="stylesheet" href="css/util.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contact.css">
@@ -17,8 +17,10 @@
             <span>LOGO</span>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
+                <li><a href="/about.html">About</a></li>
                 <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/support.html">Support Us</a></li>
+                <li><a href="/signIn.html">Sign In</a></li>
 
             </ul>
         </div>
@@ -35,29 +37,31 @@
             <h2>Feel Free To Call Us </h2>
             <div class="contact-form">
                 <div class="form-box">
-                    <input type="text" placeholder="Enter Your Name">
+                    <input type="text" placeholder="Enter Your Name" required>
                 </div>
                 <div class="form-box">
-                    <input type="text" placeholder="Enter Your Number">
+                    <input type="number" placeholder="Enter Your Phone Number" required>
                 </div>
                 <div class="form-box">
-                    <input type="text" placeholder="Enter Your Email id">
+                    <input type="email" placeholder="Enter Your Email id" required>
                 </div>
                 <div class="form-box">
-                    <textarea placeholder="Write Your Concern" class="font2" cols="30" rows="10"></textarea>
+                    <textarea placeholder="Write Your Concern" class="font2" cols="30" rows="10" required></textarea>
                 </div>
                 <div class="form-box">
-                    <button class="btn" >Submit</button>
+                    <button class="btn Csubmit" onclick="submit()">Submit</button>
                 </div>
             </div>
-            
-            
-         </div>
     </div>
     <div class="footer max-width-2 m-auto">
         <p>Copyright &copy; Bloger'spoint.com</p>
         <a href="https://www.vecteezy.com/free-vector/article">Article Vectors by Vecteezy</a>
     </div>
+    <script>
+        function submit(){
+            alert('Query Submitted Sucessfuly.')
+        }
+    </script>
 </body>
 
 </html>

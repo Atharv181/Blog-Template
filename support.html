@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Watch</title>
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/support.css">
+
+</head>
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <span>LOGO</span>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/support.html">Support Us</a></li>
+                <li><a href="/signIn.html">Sign In </a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html">
+                <input class="form-input" id="search-input" type="text" name="query" placeholder="Search Article">
+                <button class="btn" id="btn-home-search">Search</button>
+            </form>
+        </div>
+
+    </nav>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div> 
+    <div class="content max-width-1 m-auto">
+        <div class="mission-img support-img">
+            <img src="/Img/Support Us.png" height="80px" >
+        </div>
+        <div class="vision">
+            <h2 class="font1">Support Us</h2>
+            <p class="font2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis iusto atque autem ipsam doloremque,
+                dolorem dolor
+                officiis rem, accusa magni numquam magnam temporibus eaque pariatur, eligendi dolore possimu
+                s dolores non aspernatur quas nihil quo! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Eveniet ipsa,
+                accusamus labore fugiat velit voluptatum, fugit autem eligendi placeat consequuntur eos totam magni
+                incidunt
+                veritatis recusandae quis porro sunt. Eum laboriosam vero nam rerum necessitatibus, ex aut molestiae non
+                dolore
+                consectetur ea! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+    </div>
+    <div class="PayThrough max-width-1 m-auto">
+        <h2 class="font1">Support Us Through</h2>
+        <div class="support-content">
+            <img class="support-img support-qr" height="101px" width= "111px" src="Img/QR Code.png">
+            <h1 class="font1">OR</h1>
+            <butoon class="btn btn-pay " onclick="payByCard()"> Pay Using Card</butoon>
+        </div>
+    </div>
+    <script>
+        function payByCard(){
+            location.href='payment.html';
+        }
+    </script>
+</body>
+</html>

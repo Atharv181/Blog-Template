@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Watch</title>
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/signIn.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <span>LOGO</span>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/support.html">Support Us</a></li>
+                <li><a href="/signIn.html">Sign In</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html">
+                <input class="form-input" type="text" name="query" placeholder="Search Article">
+                <button class="btn">Search</button>
+            </form>
+        </div>
+
+    </nav>
+
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    
+    <div class="signIn-container max-width-2 m-auto">
+        <h2 class="m-auto signIn-heading">Sign In Through </h2>
+        <a href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?redirect_uri=storagerelay%3A%2F%2Fhttps%2F.com%3Fid%3Dauth175960&response_type=permission%20id_token&scope=email%20profile%20openid&openid.realm&client_id=50481374525-15e1sfj7hb606703erthsb3tis8j1jtk.apps.googleusercontent.com&ss_domain=https%3A%2F%2Ftutedude.com&fetch_basic_profile=true&gsiwebsdk=2&flowName=GeneralOAuthFlow">
+        <img class="g-signin2" src="Img/GoogleLogo.png"  class="google-img">
+        </a>
+        <h2 class="signIn-heading m-auto">OR</h2>
+
+        <form action="" class="signIn-form">
+            <input type="email" placeholder="Enter Your Email" id="signIn-input-email "class="signIn-input" required>
+            <input type="password" placeholder="Enter Your Password" id="signIn-input-password" class="signIn-input" required>
+            <button type="submit" onclick= "SignInSucessful()" class="btn signIn-btn" > Sign In</button>
+        </form>
+
+    </div>
+    <script> 
+        function SignInSucessful(){
+            alert('Welcome back Loged In Sucessfully.');
+            location.href ="IndexSignedIn.html";
+        }
+    </script>
+</body>
+</html>

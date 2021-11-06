@@ -1,0 +1,31 @@
+
+.mission{
+    /*border: 2px solid black;*/
+    height: 205px;
+    display: flex;
+    margin-top: 30px;
+    padding: 9px;
+    position: relative;
+    background-color: #b08130;
+}
+h2{
+    margin-bottom: 4.5px;
+}
+.content-img{
+    margin:44px 20px 10px 20px;
+}
+.connect-img{
+    margin: 19px 24px 24px 18px;
+}
+.special{
+    height: 123px;
+    padding-bottom: 0px;
+}
+.icons{
+    text-align: center;
+    background-color: rgb(255, 248, 240);
+}
+.icon{
+    padding: 10px;
+    margin: 10px;
+}

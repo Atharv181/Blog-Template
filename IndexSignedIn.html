@@ -20,7 +20,9 @@
                 <li><a href="/about.html">About</a></li>
                 <li><a href="/contact.html">Contact</a></li>
                 <li><a href="/support.html">Support Us</a></li>
-                <li><a href="/signIn.html">Sign In </a></li>
+                <li><a href="#">
+                    <img src="Img/profile-picture.png" height="24px" width="26px" alt="Avator" srcset="">    
+                </a></li>
             </ul>
         </div>
         <div class="nav-right">
@@ -41,7 +43,7 @@
         <hr>
     </div>
     <div class="home-articles m-auto max-width-1 font1">
-        <h2 class="pb1">Featured Articles</h2>
+        <h2>Featured Articles</h2>
         <div class="home-article">
             <div class="home-article-img">
                 <img src="./img/Article-1.jpg " height="100px" width="100px" alt="article">
@@ -104,39 +106,9 @@
         </div>
     </div>
     <div class="footer max-width-2 m-auto">
-        <p>Copyright &copy; Article'sWatch.com</p>
-        <a href="https://www.vecteezy.com/free-vector/article" target="_blank">Article Vectors by Vecteezy</a>
-        <div class="m-auto footer max-width-2"><a href="https://www.freepik.com" target="_blank">Icons made by Freepik</a> </div>
+        <p>Copyright &copy; Bloger'spoint.com</p>
+        <a href="https://www.vecteezy.com/free-vector/article">Article Vectors by Vecteezy</a>
     </div>
-
-
-    <button class="open-button" id="open-btn"onclick="openForm()">Sign In</button>
-    <div class="form-popup" id="myForm">
-        <form class="form-container">
-            <h2 class="pb1">Login</h2>
-
-            <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Your Email" name="email" required>
-
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Your Password" name="psw" required>
-
-            <button type="submit" class="btn" onclick="LogIn()">Login</button>
-            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-        </form>
-    </div>
-    <script>
-        function openForm() {
-            document.getElementById("myForm").style.display = "block";
-        }
-
-        function closeForm() {
-            document.getElementById("myForm").style.display = "none";
-        }
-        function LogIn(){
-            location.href="IndexSignedIn.html"
-        }
-    </script>
 </body>
 
 </html>

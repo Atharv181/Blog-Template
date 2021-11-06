@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Watch</title>
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="./css/payment.css">
+
+</head>
+<body>
+    <div class="container max-width-2 m-auto">
+        <h2 class="font1">Enter Your Card Details Here</h2>
+        <div class="contact-form">
+            <div class="form-box">
+                <input type="number" placeholder="Enter Card Number" required>
+            </div>
+            <div class="form-box">
+                <input type="number" placeholder="Enter CVV" required>
+            </div>
+            <div class="form-box">
+                <input type="number" placeholder="Enter Expiry date" required>
+            </div>
+            <div class="form-box">
+                <input placeholder="Write Name On Card " required>
+            </div>
+            <div class="form-box">
+                <button class="btn btn-pay " onclick="submit()">Pay</button>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        function submit(){
+            alert('Payment Sucessful. Thank You For Your Support')
+            location.href="index.html"
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.signIn-container{
+    border: 2px solid black;
+    height: 70vh;
+    margin-top: 47px;
+    background-color: #fcf0dc;
+    border-radius: 10px;
+}
+
+.signIn-heading{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.g-signin2{
+    height: 60px;
+    width: 60px;
+    display: block;
+    margin: 48px auto 0px;
+}
+
+.signIn-form{
+    margin-top: 20px;
+    text-align: center;
+}
+.signIn-input{
+    display: block;
+    margin: 15px auto 0px;
+    height: 22px;
+    margin-top: 15px;
+    text-align: center;
+    width: 253px;
+    border-radius: 8px;
+    border-style: groove;
+}
+.signIn-btn{
+    margin-top: 15px;
+}
