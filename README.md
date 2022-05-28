@@ -4,6 +4,9 @@
 #Github Repository Link :
  https://github.com/Atharv181/Blog-Template
 
+#Github Hosted Link :
+ atharv181.github.io/blog-template/
+ 
 #Azure static web app hosted Link :
  https://polite-grass-0fdb44a10.1.azurestaticapps.net
 
